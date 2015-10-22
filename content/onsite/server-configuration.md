@@ -8,7 +8,7 @@ title: Customizing server configuration
 You can customize the server's configuration by changing the values in the `args` key in `/etc/npme/service.json`.
 
 After changing any of the values in `service.json` you will need to restart the
-npm Enterprise server by running:
+npm On-Site server by running:
 
 
 ```sh
@@ -23,16 +23,16 @@ README for instructions.
 
 Authentication method.
 
-Possible values: [`"github"`](/enterprise/github), [`"fake"`](/enterprise/no-authentication)
+Possible values: [`"github"`](/onsite/github), [`"fake"`](/onsite/no-authentication)
 
 ## `--authorization-method`
 
 Authorization method.
 
-Possible values: [`"github"`](/enterprise/github), [`"fake"`](/enterprise/no-authentication)
+Possible values: [`"github"`](/onsite/github), [`"fake"`](/onsite/no-authentication)
 
 ## `--session-handler`
 
 Session handler.
 
-Possible values: [`"github"`](/enterprise/github), `"redis"`
+Possible values: [`"github"`](/onsite/github), `"redis"`

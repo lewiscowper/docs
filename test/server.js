@@ -68,10 +68,10 @@ describe('GET /cli/nonexistent', function () {
 })
 
 describe('redirects', function () {
-  it('301s /enterprise/whitelist to /enterprise/mirroring', function (done) {
+  it('301s /onsite/whitelist to /onsite/mirroring', function (done) {
     supertest(app)
-      .get('/enterprise/whitelist')
-      .expect('Location', /\/enterprise\/mirroring$/)
+      .get('/onsite/whitelist')
+      .expect('Location', /\/onsite\/mirroring$/)
       .expect(301, done)
   })
 

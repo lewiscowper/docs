@@ -4,7 +4,6 @@ node_modules
 .DS_Store
 npm-debug.log
 
-content/api/
 content/cli/
 content/files/
 content/misc/
